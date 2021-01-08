@@ -1,0 +1,614 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500&display=swap');
+
+
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lora', serif;
+    
+}
+
+/* Body
+---------------------------------------- */
+body {
+    background: #ffc107!important;
+    width: 100%;
+}
+
+.cafe1 {
+    font-size: 300px;
+}
+
+
+
+/* Header & Navigation
+---------------------------------------- */
+.menu-bar {
+    background-image: linear-gradient(-90deg, #FFB300, #FFBA19);
+}
+
+.nav-link {
+    font-size: 14px;
+    margin: 2px;
+    color: #000!important;
+    font-weight: 500;
+}
+
+.navbar-nav {
+    text-align: right;
+    margin-right: 20px;
+}
+
+.menu-bar .navbar-toggler {
+    padding-right: 20px;
+    outline: none!important;
+    border: none!important;
+}
+
+.navbar .fa {
+    color: #000!important;
+    font-size: 26px;
+}
+
+.nav-link:hover {
+    font-weight: 600;
+    border-bottom: 1px solid #000;
+}
+
+.navbar-brand img {
+    width: 65px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+@media only screen and (max-width: 1000px) {
+    .nav-link:hover {
+        border-bottom: none!important;
+    }
+}
+
+/*Carousel
+---------------------------------------- */
+
+.carousel {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+/*Article part
+---------------------------------------- */
+
+
+.article-clean {
+  color:#fff;
+  background-color:#FFB300;
+  font-family:'Lora', serif;
+  font-size:18px;
+}
+
+.article-clean .intro {
+  font-size:16px;
+  margin:0 auto 30px;
+  font-family:'Lora', serif;
+}
+
+.article-clean .intro h1 {
+  font-size:42px;
+  margin-bottom:15px;
+  padding-top:40px;
+  line-height:1.5;
+  color:inherit;
+  margin-top:20px;
+  font-family:'Lora', serif;
+}
+
+.article-clean .intro p {
+  color:#929292;
+  font-size:12px;
+}
+
+.article-clean .intro p .by {
+  font-style:italic;
+}
+
+.article-clean .intro p .date {
+  text-transform:uppercase;
+  padding:4px 0 4px 10px;
+  margin-left:10px;
+  border-left:1px solid #ddd;
+}
+
+.article-clean .intro p a {
+  color:#333;
+  text-transform:uppercase;
+  padding-left:3px;
+}
+
+.article-clean .intro img {
+  margin-top:20px;
+}
+
+.article-clean .text p {
+  margin-bottom:20px;
+  line-height:1.45;
+}
+
+@media (min-width:768px) {
+  .article-clean .text p {
+    font-size:16px;
+  }
+}
+
+
+.article-clean .text figure {
+  text-align:center;
+  margin-top:30px;
+  margin-bottom:20px;
+}
+
+.article-clean .text figure img {
+  margin-bottom:12px;
+  max-width:100%;
+}
+
+
+/*Honey Courses
+---------------------------------------- */
+
+.container3 {
+    background-color: #fdb831;
+}
+h1.my-4 {
+    font-size: 40px;
+ 
+}
+
+/*Menu Page
+---------------------------------------- */
+
+.table-dark .h2{
+ color: #FFB300;
+}
+
+/*Shop
+---------------------------------------- */
+
+.card-group {
+  padding-bottom: 10px;  
+} 
+
+.card-title a{
+    color: #000;
+}
+
+
+/*About us page
+---------------------------------------- */
+
+
+p,h1,h2,h3,h4 {
+	margin: 0;
+	padding: 0;
+}
+
+.section-team {
+	font-family: "Lora", sans-serif;
+	padding: 80px 0;
+}
+
+.section-team .header-section {
+	margin-bottom: 50px;
+}
+
+.section-team .header-section .small-title {
+    margin-bottom: 25px;
+	font-size: 36px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.section-team .header-section .title {
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.section-team .single-person {
+	margin-top: 30px;
+	padding: 30px;
+	background-color: #000;
+	border-radius: 5px;
+    color: aliceblue;
+}
+
+.section-team .single-person:hover {
+	background: linear-gradient(to right, #FFB300, #FFB300);
+    color: aliceblue;
+}
+
+.section-team .single-person .person-image {
+    position: relative;
+    margin-bottom: 50px;
+    border-radius: 50%;
+    border: 4px dashed transparent;
+    transition: padding .3s;
+}
+
+.section-team .single-person:hover .person-image {
+	padding: 12px;
+    border: 4px dashed #fff;
+}
+
+.section-team .single-person .person-image img {
+	width: 100%;
+    border-radius: 50%;
+}
+
+.section-team .single-person .person-image .icon {
+	position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,50%);
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 24px;
+}
+
+.section-team .single-person:hover .person-image .icon {
+	background: none;
+	background-color: #FFB300;
+	color: #fff;
+}
+
+.section-team .single-person .person-info .full-name {
+	margin-bottom: 10px;
+	font-size: 28px;
+    font-weight: 700;
+}
+
+.section-team .single-person .person-info .speciality {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fff;
+}
+
+.section-team .single-person:hover .full-name,
+.section-team .single-person:hover .speciality {
+	color: #fff;
+}
+
+div.section-team {
+    width: 80%;
+    padding-right: 40px;
+}
+
+ .h3 .small-title{
+    color: #000;
+}
+
+/* Contact Us page
+---------------------------------------- */
+a {
+    color: #000;
+    
+}
+.img-fluid {
+    max-width: 100%;
+    height: 600px;
+    padding-bottom: 20px;
+}
+
+h2.text-center {
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+div.col-md-12 {
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-color: transparent;
+}
+
+div.col-lg-4 {
+    padding-top: 30px;
+    padding-left: 36px;
+    
+}
+
+.col-lg-4 .h1 {
+    
+}
+
+div.card {
+    background: #fff!important;
+    border-color: #000;
+    border-width: 0.7px;
+    color: #000;
+}
+
+div.col-md-6 {
+    color: #000;
+    border-color: transparent;
+}
+
+section#contact.contact.py-5.bg-light {
+    background: #ffc107!important;
+}
+div.col-md-12 {
+    color: #000;
+}
+
+button.btn.btn-dark {
+    color: #ffc107;
+}
+
+i.fa.fa-facebook-square.fa-2x {
+    color: #000;
+}
+
+i.fa.fa-google-plus-square.fa-2x {
+    color: #000;
+}
+
+i.fa.fa-youtube-play.fa-2x {
+    color: #000;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:100;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+
+
+
+/*Courses Page
+---------------------------------------- */
+
+.text-center {
+    padding-top: 10px;
+}
+
+.how-section1{
+    margin-top:-15%;
+    padding: 10%;
+}
+
+.how-section11{
+    margin-top:-15%;
+    padding: 10%;
+}
+
+.how-section1 h4{
+    color: #000;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.how-section11 h4{
+    color: #000;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.how-section1 p{
+    color: #000;
+    font-size: 14px;
+}
+.how-section1 .row
+{
+    margin-top: 10%;
+}
+.how-img 
+{
+    text-align: center;
+}
+.how-img img{
+    width: 100%;
+}
+
+.item{
+    left: 0;
+    top: 0;
+    position: relative;
+    overflow: hidden;
+    margin-top:30px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+			
+     }
+		
+.item img{
+    -webkit-transition: 0.6s ease;
+    transition: 0.6s ease;
+        
+    }
+    .item img:hover{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+ 
+    } 
+
+.img-thumbnail {
+    border:0px;
+    border-radius:0px;
+        }
+
+
+
+
+/* Newsletter-form
+---------------------------------------- */
+.newsletter-subscribe {
+  color:#000;
+  background-color:#ffbd00;
+  padding:50px 0;
+}
+
+
+.newsletter-subscribe p {
+  color:#fff;
+  line-height:1.5;
+}
+
+.newsletter-subscribe h2 {
+  font-size:24px;
+  font-weight:bold;
+  margin-bottom:25px;
+  line-height:1.5;
+  padding-top:0;
+  margin-top:0;
+  color:inherit;
+}
+
+.newsletter-subscribe .intro {
+  font-size:16px;
+  max-width:500px;
+  margin:0 auto 25px;
+}
+
+.newsletter-subscribe .intro p {
+  margin-bottom:35px;
+}
+
+.newsletter-subscribe form {
+  justify-content:center;
+}
+
+.newsletter-subscribe form .form-control {
+  background:#eff1f4;
+  border:none;
+  border-radius:3px;
+  box-shadow:none;
+  outline:none;
+  color:inherit;
+  text-indent:9px;
+  height:45px;
+  margin-right:10px;
+  min-width:250px;
+}
+
+.newsletter-subscribe form .btn {
+  padding:16px 32px;
+  border:none;
+  background:none;
+  box-shadow:none;
+  text-shadow:none;
+  opacity:0.9;
+  text-transform:uppercase;
+  font-weight:bold;
+  font-size:13px;
+  letter-spacing:0.4px;
+  line-height:1;
+}
+
+.newsletter-subscribe form .btn:hover {
+  opacity:1;
+}
+
+.newsletter-subscribe form .btn:active {
+  transform:translateY(1px);
+}
+
+.newsletter-subscribe form .btn-primary {
+  background-color:#000 !important;
+  color:#FFB300;
+  outline:none !important;
+}
+
+
+
+
+
+/* Footer
+---------------------------------------- */
+.footer-clean {
+  padding:50px 0;
+  background-color:#000;
+  color:#FFB300;
+}
+
+.footer-clean h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-clean ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-clean ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-clean ul a:hover {
+  opacity:1;
+}
+
+.footer-clean .item.social {
+  text-align:right;
+}
+
+.copyright {
+    padding-top: 10px;
+}
+
+@media (max-width:767px) {
+  .footer-clean .item {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-clean .item.social {
+text-align:center;
+  }
+}
+
+.footer-clean .item.social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #FFB300;
+  margin-left:10px;
+  margin-top:22px;
+  color:#FFB300;
+  opacity:0.75;
+}
+
+.footer-clean .item.social > a:hover {
+  opacity:0.9;
+}
+
+
