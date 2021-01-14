@@ -109,44 +109,37 @@
 	        </ul>
 	    </div>
 		</div>
-		<div class="col-md-6">
-		    <div class="card">
-		        <div class="card-body">
-		             <form>
-                        <div class="form-row">
-                            <div class="form-group col-md-6">
-                              <input id="FullName" name="Full Name" placeholder="Full Name" class="form-control" type="text">
-                            </div>
-                            <div class="form-group col-md-6">
-                              <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-                            </div>
-                          </div>
-                        <div class="form-row">
-                            <div class="form-group col-md-6">
-                                <input id="MobileNo." name="Mobile No." placeholder="Mobile No." class="form-control" required="required" type="text">
-                            </div>
-                            <div class="form-group col-md-6">
-                                      
-                                      <select id="inputState" class="form-control">
-                                        <option selected>Enquiry</option>
-                                        <option> About the Menu</option>
-                                        <option> Beekeeping Courses</option>
-                                        <option> Complaint</option>
-                                        <option> Feedback</option>
-                                      </select>
-                            </div>
-                            <div class="form-group col-md-12">
-                                      <textarea id="comment" name="comment" cols="40" rows="5" placeholder="Your Message" class="form-control"></textarea>
-                            </div>
-                        </div>
-                        
-                        <div class="form-row">
-                            <button type="button" class="btn btn-dark">Submit</button>
-                        </div>
-                    </form>
-		        </div>
-		    </div>
-		</div>
+		<form name="contact" method="POST" data-netlify="true">
+    <div class="form-row">
+        <div class="form-group col-md-6">
+          <input type="text" id="fullmane" name="fullmane" placeholder="Full Name" class="form-control" type="text" required/>
+        </div>
+    <div class="form-group col-md-6">
+          <input type="email" id="email" name="email" class="form-control" placeholder="Email" required/>
+        </div>
+      </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <input type="text" id="phone" name="phone" placeholder="Mobile No." class="form-control" required/>
+        </div>
+        <div class="form-group col-md-6">
+                 
+                  <select id="inputState" class="form-control">
+                    <option selected>Enquiry</option>
+                    <option> About the Menu</option>
+                    <option> Beekeeping Courses</option>
+                    <option> Complaint</option>
+                    <option> Feedback</option>
+                  </select>
+        </div>
+        <div class="form-group col-md-12">
+            <textarea id="comment" name="comment" cols="40" rows="5" placeholder="Your Message" class="form-control" required></textarea>
+        </div>
+    </div>
+    <div class="form-row">
+      <input class="btn btn-dark" type="submit" value="Submit">
+    </div>
+  </form>
 	</div>
 	
 	
