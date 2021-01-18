@@ -77,6 +77,11 @@ body {
     padding-bottom: 18px;
 }
 
+
+p.text-center {
+    padding-top: 2px;
+}
+
 /*Article part
 ---------------------------------------- */
 
